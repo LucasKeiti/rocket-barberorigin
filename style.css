@@ -1,3 +1,70 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*-------BASE----------*/
+:root {
+    --header-height: 4.5rem;
+    /* colors */
+    --hue: 240;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 50% 60%);
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: hsl(0 0% 98%);
+  }
+
 body {
-    background: hsl(159, 38%, 67%);
+    font: 400 1rem "DM Sans", sans-serif;
+    color: (--text-color);
+    background: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font: 700 1.875rem 'Poppins', sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+/*-------LAYOUT--------*/
+#header {
+    height: 4.5rem;
+
+}
+
+nav {
+    height: 4.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font: 700 1.31rem 'Poppins', sans-serif;
+    color: var-
+}
+
+.container {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
 }

@@ -19,6 +19,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <!------- SWIPER ------->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
   </head>
   <body>
       <header id = "header">
@@ -141,12 +147,14 @@
 
       <!-- TESTIMONIALS-->
       <section class = "section" id="testimonials">
-        <div class = "container grid">
+        <div class = "container">
           <header>
             <h2 class = "title">Testimonials</h2>
           </header>
-          <div class = "testimonials">
-            <div class="testimonial">
+          <div class = "testimonials swiper-container">
+            <div class = "swiper-wrapper">
+
+              <div class="testimonial swiper-slide">
               <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -159,7 +167,7 @@
               </blockquote>
             </div>
             
-            <div class="testimonial">
+              <div class="testimonial swiper-slide">
               <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -172,7 +180,7 @@
               </blockquote>
             </div>
 
-            <div class="testimonial">
+              <div class="testimonial swiper-slide">
               <blockquote>
               <p>
                 <span>&ldquo;</span>
@@ -185,9 +193,38 @@
               </blockquote>
             </div>
           </div>
+          <!------- If we need pagination-------->
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-------CONTACT -------->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Contact Us</h2>
+            <p>Contact <strong>BarberOrigin</strong>, we want to clear your doubts, critics and suggestions.</p>
+            <a href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário" class="button" target="_blank"><i class = "icon-whatsapp">Talk to Us</i></a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 99845-6754</li>
+              <li><i class="icon-map-pin"></i>Background Street, 379</li>
+              <li><i class="icon-mail"></i>contact@barberorigin.com</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-------- SWIPER---------->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-------- MAIN------------>
     <script src="main.js"></script>
   </body>
 </html>

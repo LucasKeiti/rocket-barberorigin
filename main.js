@@ -73,7 +73,7 @@ function backToTop() {
     }
 }
 
-/* Agrupando uma função para rodar demais funções criadas */
+/* Agrupando uma função para rodar demais funções criadas (When Scroll) */
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
   backToTop()

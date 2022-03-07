@@ -1,5 +1,4 @@
 /*---------RESET-------------------*/
-
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +31,9 @@ img {
     --text-color: hsl(0 0% 46%);
     --text-color-light: hsl(0 0% 98%);
     --body-color: hsl(0 0% 98%);
+    /* fonts */
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1rem;
   }
 
 /*----------------------BASE------------------------*/
@@ -47,7 +49,7 @@ body {
 }
 
 .title {
-    font: 700 1.875rem 'Poppins', sans-serif;
+    font: 700 var(--title-font-size) 'Poppins', sans-serif;
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -99,11 +101,15 @@ body {
 }
 
 .section {
-    padding: 5rem 0; 
+    padding: calc(5rem + var(--header-height)) 0; 
 }
 
 .section .title {
     margin-bottom: 1rem;
+}
+
+.section .subtitle {
+    font-size: var(--subtitle-font-size);
 }
 
 .section header {
@@ -132,9 +138,6 @@ body {
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
-main {
-    margin-top: calc(var(--header-height) + 2rem);
-}
 
 #header.scroll .logo span {
     color: pink;
@@ -193,14 +196,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: var(--base-color);
-    position: absolute;
-    left: 0;
-    bottom: -1.5rem;
-    transition: width 0.2s;
+    width: 100%;
 }
 
 nav .menu {
@@ -434,6 +430,11 @@ nav.show div.icon-close {
     padding: 4rem 1rem;
 }
 
+.swiper-pagination-bullet {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
 .swiper-pagination-bullet-active {
     background: var(--base-color);
 }
@@ -471,6 +472,9 @@ footer {
     background-color: var(--base-color);
 }
 
+footer .section {
+    padding: 4rem 0;
+}
 footer .logo {
     display: inline-block;
     margin-bottom: 1.5rem;
@@ -500,6 +504,7 @@ footer .social a:hover {
 
 .back-to-top {
     background: var(--base-color);
+    color: var(--text-color-light);
 
     position: fixed;
     right: 1rem;
@@ -524,3 +529,19 @@ footer .social a:hover {
     transform: translateY(0);
 }
 
+/*Responsivo */
+/*----------- MEDIA QUERIES -------------*/
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
+    main {
+        margin-top: var(--header-height);
+    }
+}
+/* large devices: 1023 > */
+/* large devices: 992 > */
+@media (min-width: 992px) {
+    :root {
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+}

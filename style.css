@@ -260,13 +260,19 @@ nav.show div.icon-close {
     top: 1.5rem;
 }
 
+nav .icon-menu {
+    display: none;
+}
+
 /*---------------HOME------------------*/
 #home {
     overflow: hidden;
 }
 
 #home .container {
-    margin: 0;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 #home .image {

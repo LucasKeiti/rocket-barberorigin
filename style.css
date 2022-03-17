@@ -46,13 +46,13 @@ html {
 
 body {
     font: 400 1rem var(--body-font);
-    color: (--text-color);
+    color: var(--text-color);
     background: var(--body-color);
     -webkit-font-smoothing: antialiased;
 }
 
 .title {
-    font: 700 var(--title-font-size) var(--base-color);
+    font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -357,7 +357,7 @@ nav .icon-menu {
 }
 
 /*------------------------- SERVICES ------------------------------*/
-.cards grid {
+.cards.grid {
     gap: 1.5rem;
 }
 
@@ -449,7 +449,7 @@ nav .icon-menu {
 }
 
 /*------------CONTACT ------------------*/
-#contact-grid {
+#contact .grid {
     gap: 4rem;
 }
 

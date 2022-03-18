@@ -1,4 +1,13 @@
-# rocket-barberorigin
+# NLW Together - Origin
+
+## 🔍Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+Readme in progress...
+
 NLW Project site using HTML, CSS and JavaScript
 Author: Lucas Keiti
 

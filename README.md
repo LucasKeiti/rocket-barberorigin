@@ -37,6 +37,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Autor: Lucas Keiti
-
 🌀 Linkedin: https://www.linkedin.com/in/lucas-keiti-8a93a3231/
+
+Autor: Lucas Keiti

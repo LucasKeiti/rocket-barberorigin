@@ -3,15 +3,12 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
  <img alt="GitHub" src="https://img.shields.io/github/license/LucasKeiti/rocket-barberorigin">
 </p>
-
-<br>
 
 ## 💻 Sobre o Projeto
 
@@ -38,7 +35,8 @@ Utilitários
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Author: Lucas Keiti
+---
 
-All progress takes place outside the comfort zone.
-Lets code!!
+Autor: Lucas Keiti
+
+🌀 Linkedin: https://www.linkedin.com/in/lucas-keiti-8a93a3231/

@@ -390,6 +390,9 @@ nav .icon-menu {
 #testimonials .container {
     margin-left: 0;
     margin-right: 0;
+    position: relative;
+    overflow: hidden;
+
 }
 
 #testimonials header {

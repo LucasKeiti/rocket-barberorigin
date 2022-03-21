@@ -10,6 +10,11 @@
  <img alt="GitHub" src="https://img.shields.io/github/license/LucasKeiti/rocket-barberorigin">
 </p>
 
+<p align="center">
+  <img alt="OriginSix" src="github/preview1.jpg" width="100%">
+  <img alt="OriginSix" src="github/preview2.jpg" width="100%">
+</p>
+
 ## 💻 Sobre o Projeto
 
 A NLW OriginSix é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer.
